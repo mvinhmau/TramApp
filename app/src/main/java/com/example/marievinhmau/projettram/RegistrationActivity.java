@@ -49,7 +49,7 @@ public class RegistrationActivity extends AppCompatActivity {
         registerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //User u= createUser();
+
 
                 //Verification des données
                 String mdptest = mdpTestEditText.getText().toString().trim();

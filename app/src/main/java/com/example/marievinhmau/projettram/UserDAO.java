@@ -10,17 +10,6 @@ import android.database.sqlite.SQLiteDatabase;
 
 public class UserDAO {
 
-    /*public static final String TABLE_NAME = "users";
-    public static final String ID = "id";
-    public static final int NUM_ID=0;
-    public static final String LASTNAME = "lastname";
-    public static final int NUM_LASTNAME=1;
-    public static final String FIRSTNAME = "firstname";
-    public static final int NUM_FIRSTNAME=2;
-    public static final String PHONE = "phone";
-    public static final int NUM_PHONE=3;
-    public static final String MDP="mdp";
-    public static final int NUM_MDP=4;*/
 
     private String[] allColumns =
             {
@@ -90,7 +79,7 @@ public class UserDAO {
                 value,
                 MySQLiteHelper.USERS_ID  + " = "+id,
                 null);
-        //, new String[] {String.valueOf(u.getId())}
+
 
     }
 

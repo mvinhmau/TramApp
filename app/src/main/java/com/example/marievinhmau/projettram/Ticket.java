@@ -1,8 +1,6 @@
 package com.example.marievinhmau.projettram;
 
-/**
- * Created by marievinhmau on 12/01/2018.
- */
+
 
 public class Ticket {
     private int id;

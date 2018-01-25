@@ -39,13 +39,7 @@ public class MainActivity extends AppCompatActivity {
         editor = pref.edit();
         login = pref.getString("login", null);
         mdp = pref.getString("mdp", null);
-       /* if (login!=null && mdp!=null)
-        {
-            text.setText(login +" - " + mdp);
-            editor.clear();
-            editor.commit();
 
-        }*/
 
     }
 
@@ -62,17 +56,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //LoginActivity
-
-       /* loginBtn= (ImageButton) findViewById(R.id.loginBtn);
-        loginBtn.setOnClickListener(new OnClickListener()
-        {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-                startActivity(intent);
-            }
-        });*/
 
         //MapActivity
         mapBtn= (Button) findViewById(R.id.mapBtn);

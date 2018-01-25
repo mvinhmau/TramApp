@@ -50,9 +50,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
 
     private static final int overview = 0;
     private GoogleMap mMap;
-    private Location currentLocation;
     private ArrayList<Location> LocationStations = new ArrayList();
-    private LatLng userLocation;
     private FusedLocationProviderClient mFusedLocationClient;
 
 
@@ -194,7 +192,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
                                 Location locationStationPlusProche = new Location("");
                                 for (Location locationStation : LocationStations) {
 
-                                    dist = currentLocation.distanceTo(locationStation);
+
                                     dist =currentLocation.distanceTo(locationStation);
                                     if (dist < distMin) {
                                         distMin = dist;
@@ -236,15 +234,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback,
         }
         return false;
 
-        //Trace le trajet jusqu'à l'arret le plus proche
-        /*Polyline line = mMap.addPolyline(new PolylineOptions()
-                .add(
-                        new LatLng(currentLocation.getLatitude(), currentLocation.getLongitude())
-                        , new LatLng(locationStationPlusProche.getLatitude(), locationStationPlusProche.getLongitude())
-                )
-                .width(5)
-                .color(Color.BLUE)
-                .geodesic(true));*/
 
     }
     private void createToast(String msg)

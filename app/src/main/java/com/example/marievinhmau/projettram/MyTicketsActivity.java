@@ -23,8 +23,6 @@ public class MyTicketsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_my_tickets);
 
         myTickets = (ListView) findViewById(R.id.MyTickets);
-        //billets = new String[] {"10 voyages", "1 voyage"};
-        //Toast.makeText(this, " "+ ticketBdd, Toast.LENGTH_LONG).show();
         billets=getTickets();
         final ArrayAdapter<String> adapter = new ArrayAdapter<String>(MyTicketsActivity.this,
                 android.R.layout.simple_list_item_1, billets);

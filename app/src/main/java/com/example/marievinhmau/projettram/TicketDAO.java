@@ -12,18 +12,6 @@ import java.util.ArrayList;
 
 public class TicketDAO {
 
-    /*public static final String TABLE_NAME = "tickets";
-    //private static final int VERSION = 7;
-
-    public static final String ID = "id";
-    public static final int NUM_ID=0;
-
-    public static final String PHONE_USER = "phone_user";
-    public static final int NUM_PHONE_USER=1;
-
-    public static final String Nb= "nb";
-    public static final int NUM_Nb=2;*/
-
     private String[] allColumns = { MySQLiteHelper.TICKETS_ID,
             MySQLiteHelper.TICKETS_USER,
             MySQLiteHelper.TICKETS_NB};
