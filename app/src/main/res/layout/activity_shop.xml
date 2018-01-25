@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marievinhmau.projettram.ShopActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/TitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Achat de billets "
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="200dp"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:id="@+id/labelNb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre de billets "
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/nbBillets"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="300dp">
+
+        <Button
+            android:id="@+id/buyBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@color/btn"
+            android:text="Payer avec Google Payr"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

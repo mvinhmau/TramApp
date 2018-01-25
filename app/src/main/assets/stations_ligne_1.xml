@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<stations>
+    <dir>
+        <direction> Mosson</direction>
+    </dir>
+
+    <dir>
+        <direction> Odysseum</direction>
+    </dir>
+
+
+    <entry>
+        <name>Mosson</name>
+        <latitude>43.6212268</latitude>
+        <longitude>3.817412500000046</longitude>
+    </entry>
+    <entry>
+        <name>Stade de la Mosson</name>
+        <latitude>43.6212268</latitude>
+        <longitude>3.817412500000046</longitude>
+    </entry>
+    <entry>
+        <name>Halles de la Paillade</name>
+        <latitude>43.62758520000001</latitude>
+        <longitude>3.8175644000000375</longitude>
+    </entry>
+    <entry>
+        <name>Saint-Paul</name>
+        <latitude>43.6307237</latitude>
+        <longitude>3.821090199999958</longitude>
+    </entry>
+    <entry>
+        <name>Hauts de Massane</name>
+        <latitude>43.63633249999999</latitude>
+        <longitude>3.822748400000023</longitude>
+    </entry>
+    <entry>
+        <name>Euromedecine</name>
+        <latitude>43.6390516</latitude>
+        <longitude>3.827722699999981</longitude>
+    </entry>
+    <entry>
+        <name>Malbosc</name>
+        <latitude>43.63358139999999</latitude>
+        <longitude>3.8273672999999917</longitude>
+    </entry>
+    <entry>
+        <name>Chateau d'O</name>
+        <latitude>43.6316111</latitude>
+        <longitude>3.843108799999982</longitude>
+    </entry>
+    <entry>
+        <name>Occitanie</name>
+        <latitude>43.63461979999999</latitude>
+        <longitude>3.848454199999992</longitude>
+    </entry>
+    <entry>
+        <name>Hopital Lapeyronie</name>
+        <latitude>43.6316969</latitude>
+        <longitude>3.8526415000000043</longitude>
+    </entry>
+    <entry>
+        <name>Universites Sciences et Lettres</name>
+        <latitude>43.6291704</latitude>
+        <longitude>3.861472899999967</longitude>
+    </entry>
+    <entry>
+        <name>Saint-Eloi</name>
+        <latitude>43.62701717610133</latitude>
+        <longitude>3.865768200030516</longitude>
+    </entry>
+    <entry>
+        <name>Boutonnet</name>
+        <latitude>43.6226287</latitude>
+        <longitude>3.8680755000000318</longitude>
+    </entry>
+    <entry>
+        <name>Stade Philippides</name>
+        <latitude>43.61900039999999</latitude>
+        <longitude>3.869565200000011</longitude>
+    </entry>
+    <entry>
+        <name>Place Albert 1er- Saint-Charles</name>
+        <latitude>43.61575029999999</latitude>
+        <longitude>3.8745546000000104</longitude>
+    </entry>
+    <entry>
+        <name>Louis Blanc</name>
+        <latitude>43.6147063</latitude>
+        <longitude>3.8781970999999658</longitude>
+    </entry>
+    <entry>
+        <name>Corum</name>
+        <latitude>43.61433299999999</latitude>
+        <longitude>3.8818800000000238</longitude>
+    </entry>
+    <entry>
+        <name>Comedie</name>
+        <latitude>43.60835349999999</latitude>
+        <longitude>3.8798329999999623</longitude>
+    </entry>
+    <entry>
+        <name>Gare Saint-Roch</name>
+        <latitude>43.6058795</latitude>
+        <longitude>3.8802173999999923</longitude>
+    </entry>
+    <entry>
+        <name>Du Guesclin</name>
+        <latitude>43.60716</latitude>
+        <longitude>3.8831465000000662</longitude>
+    </entry>
+    <entry>
+        <name>Antigone</name>
+        <latitude>43.61111030000001</latitude>
+        <longitude>3.8897148999999445</longitude>
+    </entry>
+    <entry>
+        <name>Leon Blum</name>
+        <latitude>43.6089867</latitude>
+        <longitude>3.890222499999936</longitude>
+    </entry>
+    <entry>
+        <name>Place de l'europe</name>
+        <latitude>43.6073603</latitude>
+        <longitude>3.8939887000000226</longitude>
+    </entry>
+    <entry>
+        <name>Rives du Lez</name>
+        <latitude>43.60402</latitude>
+        <longitude>3.89406299999996</longitude>
+    </entry>
+    <entry>
+        <name>Moulares (Hotel de Ville)</name>
+        <latitude>43.60057429999999</latitude>
+        <longitude>3.8955154999999877</longitude>
+    </entry>
+    <entry>
+        <name>Port Marianne</name>
+        <latitude>43.601577</latitude>
+        <longitude>3.899542999999994</longitude>
+    </entry>
+    <entry>
+        <name>Mondial 98</name>
+        <latitude>43.602769</latitude>
+        <longitude>3.9039510000000064</longitude>
+    </entry>
+    <entry>
+        <name>Millenaire</name>
+        <latitude>43.6033275</latitude>
+        <longitude>3.909961800000019</longitude>
+    </entry>
+    <entry>
+        <name>Place de France</name>
+        <latitude>43.6073603</latitude>
+        <longitude>3.8939887000000226</longitude>
+    </entry>
+    <entry>
+        <name>Odysseum</name>
+        <latitude>43.60351</latitude>
+        <longitude>3.9204096999999365</longitude>
+    </entry>
+</stations>

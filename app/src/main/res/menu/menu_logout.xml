@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/shop"
+        android:title="acheter un billet" />
+
+    <item android:id="@+id/billets"
+        android:title="mes billets" />
+
+    <item android:id="@+id/update"
+        android:title="modifier mon compte" />
+
+    <item android:id="@+id/logout"
+        android:title="deconnexion" />
+</menu>

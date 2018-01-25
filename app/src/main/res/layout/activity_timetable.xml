@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marievinhmau.projettram.TimetableActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recherche d'Horaire"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="60dp"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:id="@+id/direction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Direction"
+            android:textColor="@color/colorPrimary"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/listedirection"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="200dp"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:id="@+id/stations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stations"
+            android:textColor="@color/colorPrimary"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/listeStations"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="300dp"
+        android:paddingLeft="20dp">
+
+        <TextView
+            android:id="@+id/horaires"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Horaire"
+            android:textColor="@color/colorPrimary"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/listeHeures"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:id="@+id/listeMinutes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="350dp">
+
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RadioButton android:id="@+id/PremiersDeniersBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Premiers et derniers passages"
+                />
+            <RadioButton android:id="@+id/ProchainsPassagesBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prochains passages"/>
+        </RadioGroup>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="450dp">
+
+        <Button
+            android:id="@+id/searchBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@color/btn"
+            android:text="Rechercher"
+            android:textColor="@color/white" />
+
+
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

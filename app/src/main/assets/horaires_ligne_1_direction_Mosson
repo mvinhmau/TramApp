@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<horaires>
+
+    <station>
+        <slug>odysseum</slug>
+        <name>Odysseum</name>
+        <h>4:30</h>
+        <h>5:10</h>
+        <h>5:30</h>
+        <h>5:40</h>
+        <h>5:47</h>
+        <h>5:57</h>
+        <h>6:05</h>
+        <h>6:14</h>
+        <h>6:23</h>
+        <h>6:32</h>
+        <h>6:38</h>
+        <h>6:44</h>
+
+    </station>
+
+    <station>
+        <slug>place+de+france</slug>
+        <name>Place de France</name>
+        <h>4:33</h>
+        <h>5:12</h>
+        <h>5:32</h>
+        <h>5:42</h>
+        <h>5:49</h>
+        <h>5:59</h>
+
+    </station>
+
+    <station>
+        <slug>millenaire</slug>
+        <name>Millenaire</name>
+        <h>4:35</h>
+        <h>5:14</h>
+        <h>5:34</h>
+        <h>5:44</h>
+        <h>5:51</h>
+        <h>6:01</h>
+
+    </station>
+
+    <station>
+        <slug>mondial+98</slug>
+        <name>Mondial 98</name>
+        <h>4:37</h>
+        <h>5:16</h>
+        <h>5:36</h>
+        <h>5:46</h>
+        <h>5:53</h>
+        <h>6:03</h>
+
+    </station>
+
+    <station>
+        <slug>port+marianne</slug>
+        <name>Port Marianne</name>
+        <h>4:39</h>
+        <h>5:18</h>
+        <h>5:38</h>
+        <h>5:48</h>
+        <h>5:55</h>
+        <h>6:00</h>
+        <h>6:05</h>
+        <h>6:09</h>
+
+    </station>
+
+    <station>
+        <slug>moulares</slug>
+        <name>Moulares (Hotel de Ville)</name>
+        <h>4:40</h>
+        <h>5:19</h>
+        <h>5:39</h>
+        <h>5:49</h>
+        <h>5:56</h>
+        <h>6:01</h>
+        <h>6:06</h>
+        <h>6:10</h>
+
+    </station>
+
+    <station>
+        <slug>rives+du+lez</slug>
+        <name>Rives du Lez</name>
+        <h>4:42</h>
+        <h>5:21</h>
+        <h>5:41</h>
+        <h>5:51</h>
+        <h>5:58</h>
+        <h>6:03</h>
+        <h>6:08</h>
+        <h>6:12</h>
+
+    </station>
+
+    <station>
+        <slug>place+de+l+euorpe</slug>
+        <name>Place de l'europe</name>
+        <h>4:44</h>
+        <h>5:23</h>
+        <h>5:43</h>
+        <h>5:53</h>
+        <h>6:00</h>
+        <h>6:05</h>
+        <h>6:10</h>
+        <h>6:14</h>
+
+    </station>
+
+    <station>
+        <slug>leon+blum</slug>
+        <name>Leon Blum</name>
+        <h>4:46</h>
+        <h>5:25</h>
+        <h>5:45</h>
+        <h>5:55</h>
+        <h>6:02</h>
+        <h>6:07</h>
+        <h>6:12</h>
+        <h>6:16</h>
+
+    </station>
+
+    <station>
+        <slug>antigone</slug>
+        <name>Antigone</name>
+        <h>4:47</h>
+        <h>5:26</h>
+        <h>5:46</h>
+        <h>5:56</h>
+        <h>6:03</h>
+        <h>6:08</h>
+        <h>6:13</h>
+        <h>6:17</h>
+
+    </station>
+
+    <station>
+        <slug>du+guesclin</slug>
+        <name>Du Guesclin</name>
+        <h>4:49</h>
+        <h>5:28</h>
+        <h>5:48</h>
+        <h>5:58</h>
+        <h>6:05</h>
+        <h>6:10</h>
+        <h>6:15</h>
+        <h>6:19</h>
+
+    </station>
+
+    <station>
+        <slug>gare+saint+roch</slug>
+        <name>Gare Saint-Roch</name>
+        <h>4:51</h>
+        <h>5:30</h>
+        <h>5:50</h>
+        <h>6:00</h>
+        <h>6:07</h>
+        <h>6:12</h>
+        <h>6:17</h>
+        <h>6:21</h>
+
+    </station>
+
+    <station>
+        <slug>comedie</slug>
+        <name>Comedie</name>
+        <h>4:52</h>
+        <h>5:31</h>
+        <h>5:51</h>
+        <h>6:01</h>
+        <h>6:08</h>
+        <h>6:13</h>
+        <h>6:18</h>
+        <h>6:22</h>
+
+    </station>
+
+    <station>
+        <slug>corum</slug>
+        <name>Corum</name>
+        <h>4:54</h>
+        <h>5:33</h>
+        <h>5:54</h>
+        <h>6:03</h>
+        <h>6:11</h>
+        <h>6:14</h>
+        <h>6:20</h>
+        <h>6:24</h>
+
+    </station>
+
+    <station>
+        <slug>louis blanc</slug>
+        <name>Louis Blanc</name>
+        <h>4:56</h>
+        <h>5:35</h>
+        <h>5:55</h>
+        <h>6:05</h>
+        <h>6:12</h>
+        <h>6:17</h>
+        <h>6:22</h>
+        <h>6:26</h>
+
+    </station>
+
+    <station>
+        <slug>place+albert+1er+saint+charles</slug>
+        <name>Place Albert 1er- Saint-Charles</name>
+        <h>4:58</h>
+        <h>5:37</h>
+        <h>5:57</h>
+        <h>6:07</h>
+        <h>6:14</h>
+        <h>	6:19</h>
+        <h>	6:24</h>
+        <h>	6:28</h>
+
+    </station>
+
+    <station>
+        <slug>stade+philippides</slug>
+        <name>Stade Philippidès</name>
+        <h>5:00</h>
+        <h>5:39</h>
+        <h>5:59</h>
+        <h>6:09</h>
+        <h>6:16</h>
+        <h>6:21</h>
+        <h>6:26</h>
+        <h>6:30</h>
+
+    </station>
+
+    <station>
+        <slug>boutonnet</slug>
+        <name>Boutonnet</name>
+        <h>5:03</h>
+        <h>5:42</h>
+        <h>6:02</h>
+        <h>6:12</h>
+        <h>6:19</h>
+        <h>6:24</h>
+        <h>6:29</h>
+        <h>6:33</h>
+
+    </station>
+
+    <station>
+        <slug>saint+eloi</slug>
+        <name>Saint-Eloi</name>
+        <h>5:05</h>
+        <h>5:44</h>
+        <h>6:04</h>
+        <h>6:14</h>
+        <h>6:21</h>
+        <h>6:26</h>
+        <h>6:31</h>
+        <h>6:35</h>
+
+    </station>
+
+    <station>
+        <slug>universites+sciences+et+lettres</slug>
+        <name>Universites Sciences et Lettres</name>
+        <h>5:07</h>
+        <h>5:45</h>
+        <h>6:05</h>
+        <h>6:15</h>
+        <h>6:22</h>
+        <h>6:27</h>
+        <h>6:32</h>
+        <h>6:36</h>
+
+    </station>
+
+    <station>
+        <slug>hôpital+lapeyronie</slug>
+        <name>Hopital Lapeyronie</name>
+        <h>5:09</h>
+        <h>5:47</h>
+        <h>6:07</h>
+        <h>6:17</h>
+        <h>6:24</h>
+        <h>6:29</h>
+        <h>6:34</h>
+        <h>6:38</h>
+
+    </station>
+
+    <station>
+        <slug>occitanie</slug>
+        <name>Occitanie</name>
+        <h> 5:11</h>
+        <h>5:49</h>
+        <h>6:09</h>
+        <h>6:19</h>
+        <h>6:26</h>
+        <h>6:31</h>
+        <h>6:36</h>
+        <h>6:40</h>
+
+    </station>
+
+    <station>
+        <slug>chateau+d+o</slug>
+        <name>Chateau d'O</name>
+        <h>5:13</h>
+        <h>	5:51</h>
+        <h>	6:11</h>
+        <h>	6:21</h>
+        <h>	6:28</h>
+        <h>	6:33</h>
+        <h>	6:38</h>
+        <h>	6:42</h>
+
+    </station>
+
+    <station>
+        <slug>malbosc</slug>
+        <name>Malbosc</name>
+        <h>5:15</h>
+        <h>5:53</h>
+        <h>6:13</h>
+        <h>6:23</h>
+        <h>6:30</h>
+        <h>6:35</h>
+        <h>6:40</h>
+        <h>6:44</h>
+
+    </station>
+
+    <station>
+        <slug>euromedecine</slug>
+        <name>Euromedecine</name>
+        <h>5:16	</h>
+        <h>5:54</h>
+        <h>	6:15</h>
+        <h>	6:25</h>
+        <h>	6:32</h>
+        <h>	6:37</h>
+        <h>	6:42</h>
+        <h>	6:46</h>
+
+    </station>
+
+    <station>
+        <slug>hauts+de+massane</slug>
+        <name>Hauts de Massane</name>
+        <h>5:18</h>
+        <h>	5:56</h>
+        <h>	6:17</h>
+        <h>	6:27</h>
+        <h>	6:34</h>
+        <h>	6:39</h>
+        <h>	6:44</h>
+        <h>	6:48</h>
+
+    </station>
+
+    <station>
+        <slug>saint+paul</slug>
+        <name>Saint-Paul</name>
+        <h>5:19</h>
+        <h>	5:57</h>
+        <h>	6:18</h>
+        <h>	6:28</h>
+        <h>	6:35</h>
+        <h>	6:40</h>
+        <h>	6:45</h>
+        <h>	6:49</h>
+
+    </station>
+
+    <station>
+        <slug>halles+de+la+paillade</slug>
+        <name>Halles de la Paillade</name>
+        <h>5:20	</h>
+        <h>5:58	</h>
+        <h>6:19</h>
+        <h>	6:29</h>
+        <h>	6:36</h>
+        <h>	6:41</h>
+        <h>	6:46</h>
+        <h>	6:50</h>
+
+    </station>
+
+    <station>
+        <slug>stade+de+la+mosson</slug>
+        <name>Stade de la Mosson</name>
+        <h>5:22	</h>
+        <h>6:00	</h>
+        <h>6:21	</h>
+        <h>6:31	</h>
+        <h>6:38</h>
+        <h>	6:43</h>
+        <h>	6:48</h>
+        <h>6:52</h>
+
+    </station>
+
+    <station>
+        <slug>mosson</slug>
+        <name>Mosson</name>
+        <h>5:23</h>
+        <h>	6:01</h>
+        <h>	6:22</h>
+        <h>	6:32</h>
+        <h>	6:32</h>
+        <h> 6:39</h>
+        <h>	6:44</h>
+        <h>	6:49</h>
+        <h>	6:53</h>
+
+    </station>
+</horaires>
